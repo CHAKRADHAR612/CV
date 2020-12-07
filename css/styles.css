@@ -1,19 +1,111 @@
 body{
-  background-color: #f2f4c0;
-}
-hr{
-  border-style: dotted none none;
-  border-color: grey;
-  height: 4px;
-  width: 3%;
-  border-width: thick;
+  margin:0;
+  text-align: center;
+  font-size: 25px;
 }
 h1{
-  color: #66BFBF;
+  color:#66BFBF;
+  font-size: 90px;
+}
+h2{
+  color:#66BFBF;
+  font-size: 60px;
 }
 h3{
-  color: #66BFBF;
+  color:#11999E;
 }
-.circular{
+hr{
+  border:dotted #EAF6F6 8px;
+  border-bottom:none;
+  width:4%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+a{
+  text-decoration: none;
+  margin:50px 30px 50px 0;
+  color:#11999E;
+}
+a:hover{
+  color:#EAF6F6;
+
+}
+.top-container{
+  padding-top: 100px;
+  background-color: #EAF6F6;
+  position: relative;
+}
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+}
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top:50px;
+}
+.mountain{
+  padding-top: 30px;
+}
+.myprofile{
+  padding-top: 30px;
   border-radius: 100%;
+  width:10%;
+}
+.skill-row{
+  width:50%;
+  margin:100px auto 150px;
+  text-align: left;
+  line-height: 2;
+}
+.Naruto{
+  border-radius: 100%;
+  width:25%;
+  float:left;
+  margin-right: 30px;
+}
+.chillies{
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+.my-text{
+  width:25%;
+  margin:50px auto 50px;
+}
+.myButton {
+	box-shadow: 0 6px 14px -7px #276873;
+	background:linear-gradient(to bottom, #6cc9eb 5%, #408c99 100%);
+	background-color:#6cc9eb;
+	border-radius:20px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:17px;
+	font-style:italic;
+	padding:13px 24px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #6cc9eb 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.contact-me-text{
+  width:25%;
+  margin:50px auto 50px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.end-line{
+  color:#EAF6F6;
+  padding-top: 30px;
 }
